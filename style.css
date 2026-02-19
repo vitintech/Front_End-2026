@@ -1,0 +1,38 @@
+.destaque {
+   color: gray;
+}
+
+header, h2, #seção-1, #seção-2 {
+    text-align: center;
+    background-color: black;
+    color: gray;
+}
+
+h3, h4 {
+    font-size: 20px; /*para aumentar tamanho de letra*/
+}
+
+img {
+    max-width: 500px;/*Serve para largura maxima e acompanha quando muda o tamanho*/
+    display: block; /*considera como bloco, e move como bloco*/
+    text-align: center; /*para alinhar texto ou imagem ao centro do site*/ 
+    margin: auto; /*para deixar a margin se auto centralizar */
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.462);
+    margin: auto; /*Para modificar automaticamente o tamanho da margem*/
+}
+
+h1 {
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
