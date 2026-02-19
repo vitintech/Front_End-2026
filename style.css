@@ -1,8 +1,16 @@
+* {
+    margin: 5px;
+}
+
 .destaque {
    color: gray;
 }
 
-header, h2, #seção-1, #seção-2 {
+#seção-2 {
+    background-color: black;
+}
+
+header, h2, #seção-1 {
     text-align: center;
     background-color: black;
     color: gray;
@@ -26,6 +34,7 @@ html {
 body {
     background-color: rgba(128, 128, 128, 0.462);
     margin: auto; /*Para modificar automaticamente o tamanho da margem*/
+    padding: 0px;
 }
 
 h1 {
