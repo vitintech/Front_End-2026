@@ -52,4 +52,4 @@ Repositório em constante atualização conforme o andamento da disciplina.
 👨‍💻 Autor
 -
 Victor Souza
-Estudante de Tecnologia | Front-End em formação
+Estudante de Engenharia de Software | Front-End em formação
