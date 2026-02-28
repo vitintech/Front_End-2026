@@ -1,7 +1,7 @@
 .titulo {
     text-align: center;
-    color: white;
-    background-color: black;
-    margin: auto;
-    display: block;
+}
+
+.sub-titulo {
+    font-size: 20px;
 }
