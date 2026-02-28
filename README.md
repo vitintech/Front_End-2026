@@ -51,5 +51,5 @@ Repositório em constante atualização conforme o andamento da disciplina.
 
 👨‍💻 Autor
 -
-Victor Souza
+Victor de Souza Vicente |
 Estudante de Engenharia de Software | Front-End em formação
