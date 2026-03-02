@@ -10,3 +10,9 @@
 .PARA {
     font-size: 17px;
 }
+
+img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
