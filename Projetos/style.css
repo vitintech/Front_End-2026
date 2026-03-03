@@ -1,14 +1,51 @@
+/* Colocar * antes de começar o código para zerar margin e padding*/
+
+/*Body tag importante de HTML, o corpo do HTML*/
 body {
     margin: 0px;
 }
 
+/*Tag p de paragrafo*/
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+/*Classes*/
+.paragrafo-principal {
+    margin: 5px;
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.titulo-console, .titulo-console-2, .titulo-console-3 {
+    font-size: 15px;
+    background-color: #031e2a;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.console, .console-2, .console-3 {
+    color: white;
+    background-color: gray;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 1px;
+}
+
+/*Tags h1 ate h6*/
 h1 {
-    text-align: center;
     color: white;
     background-color: #01080e;
     margin: 0px;
     margin-bottom: 20px;
-    padding: 25px;
+    padding: 30px;
 }
 
 h2 {
@@ -17,26 +54,100 @@ h2 {
     background-color: #031e2a;
     margin: 0px;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
-h3, h4 {
+h3, h4, h5 {
     font-size: 17px;
     color: white;
     background-color: #031e2a;
     margin: 0px;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
+/*Tags e classes imagens*/
 img {
     display: block;
+    width: 250px;
     text-align: center;
     margin: auto;
 }
 
+.imagem {
+    width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagem:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+/*Tag para agrupar informações*/
 fieldset {
     padding: 0px;
     margin: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+    /*Efeito flutuante*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+fieldset:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+legend {
     border-radius: 8px;
+}
+
+.form-opiniao {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #031e2a;
+    color: white;
+}
+
+.form-opiniao legend {
+    padding: 8px 12px;
+    background-color: #01080e;
+    color: white;
+}
+
+.form-opiniao label {
+    margin-left: 15px;
+}
+
+.form-opiniao input,
+.form-opiniao textarea {
+    width: 90%;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+
+.form-opiniao textarea {
+    resize: none;
+}
+
+.form-opiniao button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #01080e;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-opiniao button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
 }
