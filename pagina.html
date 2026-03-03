@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> <!--Serve para conectar o html ao css-->
+        <link rel="shortcut icon" href="img/projeto/code.png" type="image/x-icon">
+        <title> Conceitos - Algoritmos e Lógica</title>
+    </head>
+    
+    <body>
+        <div class="header">
+                <h1> Coceitos Básicos - Portugol</h1>
+                <img class="imagem-principal" src="img/projeto/ChatGPT_Image_2_de_mar._de_2026__20_01_16-removebg-preview.png" alt="codigo no computador">
+        </div>
+
+        <div class="paragrafo">
+            <fieldset>
+            <h2> Introdução aos Laços de repetição - Portugol</h2>
+                <p class="paragrafo-principal"> Os laços de repetição são estruturas fundamentais da lógica de programação, para executar repetidamente um conjunto de comandos de forma controlada.
+                    Seu uso permite evitar a duplicação de código, tornando os algoritmos mais organizados, eficientes e fáceis de manter.
+                    Em Portugol, essas estruturas são amplamente empregadas em situações que envolvem contagem, leitura e processamento de dados, 
+                    realização de cálculos repetitivos e verificação contínua de condições. De modo geral, os laços de repetição operam a partir de uma condição ou mecanismo de controle, 
+                    que determina a continuidade ou o encerramento da execução do bloco de comandos.
+                    A compreensão adequada dos laços de repetição é essencial para o desenvolvimento de algoritmos corretos e bem estruturados. Nos tópicos seguintes, 
+                    serão apresentados os principais tipos de laços de repetição disponíveis em Portugol, bem como suas aplicações.
+                </p>
+            </fieldset>
+
+            <img class="imagem" src="img/projeto/visualg_02.jpg" alt="codigo no computador">
+        </div>
+
+        <div class="texto">
+                <fieldset>
+                <h3> Laço de Repetição - PARA</h3>
+                  <p> O laço de repetição PARA é uma estrutura utilizada em Portugol quando se deseja repetir um conjunto de comandos por um número determinado de vezes. 
+                    Ele é ideal para situações em que já se conhece a quantidade de repetições que o programa deverá executar, como contagens, 
+                    cálculos repetitivos ou exibição de dados em sequência. Esse laço funciona a partir de uma variável de controle, que recebe um valor inicial, 
+                    possui uma condição de parada (valor final) e é atualizada automaticamente a cada repetição, geralmente por incremento de 1.
+                    Enquanto a condição for satisfeita, o bloco de comandos dentro do laço continuará sendo executado.
+                    O uso do PARA torna o código mais organizado, legível e eficiente, evitando repetições desnecessárias de comandos e facilitando a manutenção do programa.</p>
+
+                    <div class="console">
+                        <p class="titulo-console"> Console</p>
+                          <code>
+                            <p>
+                                para i de 1 ate 5 faca<br>
+                                  escreva(i)<br>
+                            fimpara
+                            </p>
+                          </code>
+                    </div>
+                </fieldset>
+        </div>
+
+        <div class="texto-2">
+            <fieldset>
+                <h4> Laço de Repetição - ENQUANTO</h4>
+                  <p> O laço de repetição ENQUANTO é uma estrutura utilizada em Portugol quando não se sabe previamente quantas vezes um conjunto de comandos deverá ser executado. 
+                    Ele é indicado para situações em que a repetição depende do resultado de uma condição lógica, que é avaliada antes de cada execução do laço.
+                    Nesse tipo de laço, a condição é testada no início. Enquanto essa condição for verdadeira, o bloco de comandos será executado repetidamente. Caso a condição seja falsa logo no início, 
+                    o laço não será executado nenhuma vez. Por esse motivo, é fundamental garantir que a condição seja corretamente atualizada dentro do laço, evitando repetições infinitas.
+                    O ENQUANTO é amplamente utilizado em algoritmos que envolvem validação de dados, leitura repetida de informações, processamento contínuo e 
+                    controle de fluxos que dependem de decisões dinâmicas durante a execução do programa.</p>
+
+                     <div class="console-2">
+                        <p class="titulo-console-2"> Console</p>
+                          <code>
+                            <p>
+                              i <- 1 <br>
+                              enquanto i <= 5 faca <br>
+                                escreva(i) <br>
+                                  i <- i + 1 <br>
+                            fimenquanto
+                            </p>
+                          </code>
+                    </div>
+            </fieldset>
+        </div>
+
+        <div class="texto-3">
+            <fieldset>
+                <h5> Laço de Repetição - FAÇA ENQUANTO</h5>
+                  <p> O laço de repetição FAÇA…ENQUANTO é uma estrutura utilizada em Portugol quando se deseja executar um bloco de comandos pelo menos uma vez, independentemente da condição. 
+                    Isso acontece porque a verificação da condição é feita após a execução do bloco de comandos.
+                    Nesse laço, os comandos são executados inicialmente e, ao final, a condição é avaliada. Se a condição for verdadeira, o bloco será repetido; caso contrário, a repetição é encerrada. 
+                    Por esse motivo, o FAÇA…ENQUANTO é indicado para situações em que é necessário garantir ao menos uma execução, como menus interativos, validação de entradas e repetição de ações até que uma condição seja satisfeita.
+                    Esse tipo de laço torna o algoritmo mais flexível e adequado para cenários em que a condição de parada depende de um resultado obtido durante a execução do próprio laço.</p>
+
+                     <div class="console-3">
+                        <p class="titulo-console-3"> Console</p>
+                          <code>
+                            <p>
+                               i <- 1<br>
+                                faca<br>
+                                 escreva(i)<br>
+                                  i <- i + 1<br>
+                                   enquanto i <= 5
+                            </p>
+                          </code>
+                    </div>
+            </fieldset>
+        </div>
+
+            <fieldset class="form-opiniao">
+              <legend>Deixe sua opinião</legend>
+
+              <form action="#" method="post">
+                    
+                  <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                    <br><br>
+
+                  <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+
+                    <br><br>
+
+                  <label for="opiniao">Sua opinião:</label><br>
+                    <textarea id="opiniao" name="opiniao" rows="5" placeholder="Escreva sua opinião aqui..." required></textarea>
+
+                    <br><br>
+
+                  <button type="submit">Enviar</button>
+              </form>
+          </fieldset>
+    </body>
+</html>
