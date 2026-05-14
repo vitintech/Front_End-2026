@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Taxas infinity Bank</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <h1>Infinity Bank</h1>
+
+            <select id="bandeira">
+
+                <option value="visa">
+                    Visa
+                </option>
+
+                <option value="master">
+                    Master
+                </option>
+
+                <option value="elo">
+                    Elo
+                </option>
+
+            </select>
+
+            <input
+                type="number"
+                id="valor"
+                placeholder="Valor da venda"
+                step="0.01"
+            >
+
+            <input
+                type="number"
+                id="parcelas"
+                placeholder="Quantidade de parcelas"
+            >
+
+            <button id="btnCalcular">
+                Simular Venda
+            </button>
+
+            <div id="resultado"></div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
